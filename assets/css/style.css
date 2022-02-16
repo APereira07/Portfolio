@@ -1006,7 +1006,7 @@ body.light-theme {
     }
 
     .about__data {
-        text-align: initial;
+        text-align: center;
     }
 
     .about__info {
@@ -1014,7 +1014,6 @@ body.light-theme {
     }
 
     .about__box {
-        text-align: center;
         margin: 1rem 1.25rem;
     }
 
@@ -1034,11 +1033,13 @@ body.light-theme {
     .skills__container {
         grid-template-columns: repeat(2, 350px);
         column-gap: 3rem;
+        justify-content: space-evenly;
     }
 
     .services__container {
         grid-template-columns: repeat(3, 192px);
         column-gap: 3rem;
+        justify-content: space-evenly;
     }
 
     .services__card {
@@ -1046,7 +1047,10 @@ body.light-theme {
     }
 
     .work__container {
+        grid-template-columns: repeat(3, 192px);
+        grid-template-rows: auto;
         gap: 3rem;
+        justify-content: space-evenly;
     }
 
     .work__card {
@@ -1062,7 +1066,15 @@ body.light-theme {
     }
 
     .contact__container {
-        column-gap: 6rem;
+        column-gap: 10rem;
+    }
+
+    .contact__form-input {
+        width: fit-content;
+    }
+
+    .contact__card {
+        padding: 2rem;
     }
 
     .footer__social-link {
