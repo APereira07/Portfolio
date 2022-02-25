@@ -64,7 +64,7 @@ button,
 input,
 textarea {
     font-family: var(--body-font);
-    font-size: var(--normal-font-size);
+    font-size: 20px;
 }
 
 body {
@@ -130,7 +130,7 @@ img {
 
 .section__subtitle {
     display: block;
-    font-size: 21px;
+    font-size: 28px;
     color: var(--title-color);
 }
 
@@ -155,7 +155,7 @@ img {
 .nav__logo {
     color: var(--first-color);
     font-weight: var(--font-medium);
-    font-size: large;
+    font-size: 27px;
     transition: .4s;
 }
 
@@ -233,7 +233,7 @@ img {
 }
 
 .home__name {
-    font-size: var(--biggest-font-size);
+    font-size: 45px;
 }
 
 .home__img {
@@ -373,7 +373,7 @@ img {
 }
 
 .about__title {
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .about__subtitle {
@@ -382,7 +382,7 @@ img {
 
 .about__description {
     margin-bottom: 2rem;
-    font-size: 18px;
+    font-size: 23px;
     color: var(--title-color);
 }
 
@@ -399,7 +399,7 @@ img {
 }
 
 .skills__title {
-    font-size: 20px;
+    font-size: 27px;
     font-weight: var(--font-semibold);
     color: var(--first-color);
     text-align: center;
@@ -430,9 +430,13 @@ img {
 }
 
 .skills__name {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: var(--font-medium);
     line-height: 18px;
+}
+
+.skills__level {
+    font-size: 20px;
 }
 
 
@@ -450,13 +454,14 @@ img {
 }
 
 .services__title {
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 2.5rem;
     text-align: center;
 }
 
 .services__button {
     color: var(--first-color);
+    font-size: 19px;
     display: flex;
     align-items: center;
     column-gap: .25rem;
@@ -576,7 +581,7 @@ img {
 }
 
 .work__title {
-    font-size: var(--normal-font-size);
+    font-size: 23px;
     font-weight: var(--font-medium);
     margin-bottom: .25rem;
 }
@@ -584,7 +589,7 @@ img {
 .work__button {
     width: max-content;
     color: var(--first-color);
-    font-size: 15px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     column-gap: .25rem;
@@ -612,7 +617,7 @@ img {
 
 .contact__title {
     text-align: center;
-    font-size: var(--h3-font-size);
+    font-size: 25px;
     margin-bottom: 1.5rem;
 }
 
@@ -636,7 +641,7 @@ img {
 
 .contact__card-title,
 .contact__card-data {
-    font-size: var(--small-font-size);
+    font-size: 22px;
 }
 
 .contact__card-title {
@@ -650,7 +655,7 @@ img {
 
 .contact__button {
     color: var(--first-color);
-    font-size: var(--small-font-size);
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -691,7 +696,7 @@ img {
     position: absolute;
     top: -.75rem;
     left: 1.25rem;
-    font-size: var(--smaller-font-size);
+    font-size: 18px;
     padding: .25rem;
     background-color: var(--body-color);
     z-index: 10;
@@ -717,9 +722,11 @@ img {
 .footer__title,
 .footer__link {
     color: var(--body-color);
+    font-size: 22px;
 }
 
 .footer__title {
+    font-size: 27px;
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -976,7 +983,7 @@ body.light-theme {
 
     .section__title {
         margin-bottom: 3.5rem;
-        font-size: xx-large;
+        font-size: 37px;
     }
 
     .nav {
@@ -1006,12 +1013,12 @@ body.light-theme {
     }
 
     .home__scroll-name {
-        font-size: large;
+        font-size: 20px;
     }
 
     .button,
     .button--ghost {
-        font-size: large;
+        font-size: 24px;
     }
 
 
@@ -1032,7 +1039,7 @@ body.light-theme {
     }
 
     .about__subtitle {
-        font-size: large;
+        font-size: 20px;
     }
 
     .about__description {
@@ -1072,7 +1079,7 @@ body.light-theme {
     }
 
     .work__title {
-        font-size: 18px;
+        font-size: 23px;
         margin-bottom: .9rem;
     }
 
@@ -1111,7 +1118,7 @@ body.light-theme {
 
     .home__greeting,
     .home__education {
-        font-size: 25px;
+        font-size: 28px;
     }
 
     .home__greeting,
