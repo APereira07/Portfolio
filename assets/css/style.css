@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 :root {
     --header-height: 3.5rem;
 
-    --first-hue: 181;
-    --sat: 95%;
-    --lig: 46%;
+    --first-hue: 231;
+    --sat: 68%;
+    --lig: 65%;
     --second-hue: 219;
 
     --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
@@ -155,7 +155,7 @@ img {
 .nav__logo {
     color: var(--first-color);
     font-weight: var(--font-medium);
-    font-size: 27px;
+    font-size: 20px;
     transition: .4s;
 }
 
@@ -233,7 +233,7 @@ img {
 }
 
 .home__name {
-    font-size: 45px;
+    font-size: 3px2;
 }
 
 .home__img {
@@ -323,7 +323,7 @@ img {
     color: var(--body-color);
     padding: .75rem 1rem;
     border-radius: .5rem;
-    font-weight: var(--font-medium);
+    font-weight: bold;
     transition: .4s;
 }
 
@@ -1013,12 +1013,13 @@ body.light-theme {
     }
 
     .home__scroll-name {
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .button,
     .button--ghost {
-        font-size: 24px;
+        font-size: 20px;
+        font-weight: bold;
     }
 
 
@@ -1118,7 +1119,7 @@ body.light-theme {
 
     .home__greeting,
     .home__education {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .home__greeting,
