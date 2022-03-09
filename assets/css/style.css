@@ -387,12 +387,6 @@ img {
     color: var(--title-color);
 }
 
-.about__character {
-    width: 32px;
-    height: 32px;
-    overflow: hidden;
-}
-
         /* Skills */
 .skills__container {
     row-gap: 2rem;
