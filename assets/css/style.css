@@ -237,10 +237,6 @@ img {
     font-size: 32px;
 }
 
-.home__img {
-    width: 160px;
-}
-
 .home__handle {
     justify-self: center;
     width: 190px;
@@ -992,10 +988,6 @@ body.light-theme {
     .home__handle {
         width: 290px;
         height: 400px;
-    }
-
-    .home__img {
-        width: 220px;
     }
 
     .home__social-link {
